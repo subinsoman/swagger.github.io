@@ -2,8 +2,13 @@
 function submit() {
     let s = document.getElementById("json_data").value;
     document.getElementById('yaml_out').value = '';
-    let json_object = JSON.parse(s);
-    parse(json_object, '')
+    try{
+         let json_object = JSON.parse(s);
+         parse(json_object, '')
+    }catch(err) {
+         document.getElementById('yaml_out').value +=  err.message;
+    }    
+   
 }
 
 function isEmpty(obj) {
