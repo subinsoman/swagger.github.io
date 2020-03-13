@@ -1,6 +1,4 @@
-/**
- * Created by Bikram Pandit on 8/18/2018.
- */
+
 function submit() {
     let s = document.getElementById("json_data").value;
     document.getElementById('yaml_out').value = '';
@@ -19,15 +17,15 @@ function isEmpty(obj) {
 
 function parse(s, indent) {
     if (Array.isArray(s)) {
-        write(indent + 'type: array');
+        write(indent + 'type: \"array\"');
         write(indent + 'items:');
         if (s.length !== 0) {
             parse(s[0], indent + '  ');
         } else {
-            write(indent + '  type: object');
+            write(indent + '  type: \"object\"');
         }
     } else if (typeof s === 'object') {
-        write(indent + 'type: object');
+        write(indent + 'type: \"object\"');
         if (isEmpty(s)) {
             return;
         }
@@ -39,7 +37,7 @@ function parse(s, indent) {
             }
         }
     } else {
-        write(indent + 'type: ' + (typeof s));
+        write(indent + 'type: \"' + (typeof s)+'\"');
     }
 }
 
