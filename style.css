@@ -5,7 +5,11 @@
 .column {
     float: left;
     width: 50%;
-    height: 600px;
+    height: 580px;
+}
+.header {
+    float: left;
+    width: 25%;
 }
 
 /* Clear floats after the columns */
