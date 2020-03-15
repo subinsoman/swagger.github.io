@@ -1,6 +1,14 @@
 * {
     box-sizing: border-box;
 }
+.green{
+    color: green;
+
+}
+
+.wow_hero h1 {
+    font-weight: 300;
+}
 
 .column {
     float: left;
