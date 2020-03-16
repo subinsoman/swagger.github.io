@@ -36,9 +36,9 @@ input[type="button"] {
     height: 35px;
 }
 select#type {
-    width: 60%;
-    color: white;
-    background-color: #009688;
+    width: 50%;
+    #color: white;
+    #background-color: #009688;
     border: none;
      height: 35px;
 }
