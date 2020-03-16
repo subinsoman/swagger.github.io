@@ -40,7 +40,7 @@ select#type {
     #color: white;
     #background-color: #009688;
     border: none;
-     height: 35px;
+    #height: 35px;
 }
 label{
         color: black;
