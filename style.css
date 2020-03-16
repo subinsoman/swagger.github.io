@@ -35,8 +35,14 @@ input[type="button"] {
     text-align: center;
     height: 35px;
 }
+select#type {
+    width: 80%;
+    color: white;
+    background-color: #009688;
+    border: none;
+}
 label{
-        color: orange;
+        color: black;
     font-weight: 300;
 }
 
