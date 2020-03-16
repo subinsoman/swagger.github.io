@@ -28,11 +28,12 @@
 }
 
 input[type="button"] {
-    background: green;
+   background: green;
     color: white;
     width: 198%;
     border: none;
     text-align: center;
+    height: 35px;
 }
 
 textarea{
