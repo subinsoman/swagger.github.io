@@ -13,7 +13,7 @@
 .column {
     float: left;
     width: 50%;
-    height: 580px;
+    height: 100%;
 }
 .header {
     float: left;
