@@ -27,6 +27,14 @@
     clear: both;
 }
 
+input[type="button"] {
+    background: green;
+    color: white;
+    width: 198%;
+    border: none;
+    text-align: center;
+}
+
 textarea{
     resize: none;
 }
