@@ -35,6 +35,10 @@ input[type="button"] {
     text-align: center;
     height: 35px;
 }
+label{
+        color: orange;
+    font-weight: 300;
+}
 
 textarea{
     resize: none;
