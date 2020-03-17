@@ -5,7 +5,9 @@
     color: green;
 
 }
-
+.wow_hero{
+    height: 10vh;
+}
 .wow_hero h1 {
     font-weight: 300;
 }
