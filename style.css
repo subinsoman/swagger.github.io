@@ -6,7 +6,7 @@
 
 }
 .wow_hero{
-    height: 10vh;
+    height: 7vh;
 }
 .params{
     height: 4vh;
@@ -38,7 +38,7 @@ input[type="button"] {
     width: 198%;
     border: none;
     text-align: center;
-    height: 9vh;
+    height: 4vh;
 }
 select#type {
     width: 50%;
@@ -54,4 +54,8 @@ label{
 
 textarea{
     resize: none;
+}
+.footer{
+     text-align: center;
+  font-weight: 100;
 }
