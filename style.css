@@ -48,8 +48,16 @@ select#type {
     #height: 35px;
 }
 label{
-        color: black;
+    color: black;
     font-weight: 300;
+}
+.json_data{
+    width: 98%;
+    height: 75vh;
+}
+.yaml_out{
+    width: 98%;
+    height: 75vh;
 }
 
 textarea{
