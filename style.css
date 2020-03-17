@@ -38,7 +38,7 @@ input[type="button"] {
     width: 198%;
     border: none;
     text-align: center;
-    height: 35px;
+    height: 5vh;
 }
 select#type {
     width: 50%;
