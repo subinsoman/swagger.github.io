@@ -9,7 +9,7 @@
     height: 10vh;
 }
 .params{
-    height: 10vh;
+    height: 4vh;
 }
 .wow_hero h1 {
     font-weight: 300;
@@ -38,7 +38,7 @@ input[type="button"] {
     width: 198%;
     border: none;
     text-align: center;
-    height: 5vh;
+    height: 9vh;
 }
 select#type {
     width: 50%;
