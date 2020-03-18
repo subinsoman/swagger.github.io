@@ -2,11 +2,11 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ## Getting Started
-
+This is the Swagger creator project, which reads json definitions into swagger YML.
 
 ## Built With
 
-
+java script
 
 
 ## Authors
